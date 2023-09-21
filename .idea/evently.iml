@@ -101,6 +101,7 @@
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.4.2, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="stimulus-rails (v1.2.2, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="stringio (v3.0.8, asdf: 3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tailwindcss-rails (v2.0.30, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="temple (v0.10.2, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v1.2.2, asdf: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v2.3.0, asdf: 3.2.2) [gem]" level="application" />
@@ -138,6 +139,9 @@
         <option value="erb:scaffold" />
         <option value="generator" />
         <option value="haml:application_layout" />
+        <option value="haml:controller" />
+        <option value="haml:mailer" />
+        <option value="haml:scaffold" />
         <option value="helper" />
         <option value="integration_test" />
         <option value="jbuilder" />
@@ -180,6 +184,9 @@
         <option value="erb:scaffold" />
         <option value="generator" />
         <option value="haml:application_layout" />
+        <option value="haml:controller" />
+        <option value="haml:mailer" />
+        <option value="haml:scaffold" />
         <option value="helper" />
         <option value="integration_test" />
         <option value="jbuilder" />

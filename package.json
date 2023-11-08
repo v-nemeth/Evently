@@ -1,13 +1,4 @@
 {
   "name": "app",
-  "private": "true",
-  "dependencies": {
-    "autoprefixer": "latest",
-    "postcss": "latest",
-    "tailwind": "^4.0.0",
-    "tailwindcss": "^3.3.3"
-  },
-  "scripts": {
-    "build:css": "tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css --minify"
-  }
+  "private": "true"
 }

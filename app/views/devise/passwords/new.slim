@@ -1,0 +1,22 @@
+.row.h-75.align-items-center
+  .col-md-3
+  .col-md-6
+    .card
+      .card-header.text-center
+        h2.card-title Forgot your password?
+      .card-body
+        = form_for(resource, as: resource_name, url: password_path(resource_name), method: :post) do |f|
+          = render "devise/shared/error_messages", resource: resource
+
+          .form-outline.mb-4
+            = f.label :email
+            = f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control"
+
+          .form-outline.mb-4
+            = f.submit "Send me reset password instructions", class: "btn btn-primary btn-block mb-4"
+
+        .row.mb-4
+          = link_to "Sign in", new_session_path(resource_name), class: "float-end"
+
+
+  .col-md-3

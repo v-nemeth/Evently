@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54c9f55c-25cd-42ef-8bf0-460f1df22f3c" name="Changes" comment="setup devise and slim, added home page">
-      <change afterPath="$PROJECT_DIR$/app/views/devise/passwords/edit.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/passwords/new.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/registrations/edit.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.slim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.slim" afterDir="false" />
+    <list default="true" id="54c9f55c-25cd-42ef-8bf0-460f1df22f3c" name="Changes" comment="devise sign in/up views">
+      <change afterPath="$PROJECT_DIR$/spec/features/user_authentication_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.slim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/sessions/new.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/home.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/home.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/factories.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699406624888</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="devise sign in/up views">
+      <option name="closed" value="true" />
+      <created>1699439678019</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1699439678019</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +222,7 @@
     <MESSAGE value="fixed yarn dependency errors during build" />
     <MESSAGE value="added bootstrap to project" />
     <MESSAGE value="setup devise and slim, added home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup devise and slim, added home page" />
+    <MESSAGE value="devise sign in/up views" />
+    <option name="LAST_COMMIT_MESSAGE" value="devise sign in/up views" />
   </component>
 </project>

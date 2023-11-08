@@ -6,7 +6,7 @@
         h3.card-title Sign In
       .card-body
         .p-3
-          = form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
+          = form_for(resource, as: resource_name, url: session_path(resource_name), data: { turbo: false }) do |f|
             .form-outline.mb-4
               = f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control"
               label.form-label for="user_email" Email address

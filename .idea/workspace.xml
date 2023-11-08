@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54c9f55c-25cd-42ef-8bf0-460f1df22f3c" name="Changes" comment="Switch to bootstrap and setup rspec testing">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="54c9f55c-25cd-42ef-8bf0-460f1df22f3c" name="Changes" comment="fixed yarn dependency errors during build" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +131,7 @@
       <workItem from="1695290181284" duration="3141000" />
       <workItem from="1695381321262" duration="3585000" />
       <workItem from="1695614167068" duration="54000" />
-      <workItem from="1699403099768" duration="1698000" />
+      <workItem from="1699403099768" duration="2051000" />
     </task>
     <task id="LOCAL-00001" summary="installed gems">
       <option name="closed" value="true" />
@@ -160,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699403580521</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixed yarn dependency errors during build">
+      <option name="closed" value="true" />
+      <created>1699405026020</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699405026020</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +175,7 @@
     <MESSAGE value="installed gems" />
     <MESSAGE value="Initial tailwind and devise" />
     <MESSAGE value="Switch to bootstrap and setup rspec testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Switch to bootstrap and setup rspec testing" />
+    <MESSAGE value="fixed yarn dependency errors during build" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed yarn dependency errors during build" />
   </component>
 </project>

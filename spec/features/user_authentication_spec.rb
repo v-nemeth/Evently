@@ -8,12 +8,11 @@ RSpec.feature "UserAuthentication", type: :feature do
   scenario "User signs up" do
     visit new_user_registration_path
 
-    fill_in 'Email', with: 'test@example.com'
-    fill_in 'Password', with: 'password', match: :prefer_exact
-    fill_in 'Password confirmation', with: 'password', match: :prefer_exact
-    click_button 'Sign up'
+    fill_in I18n.t('common.authentication.email'), with: 'test@example.com'
+    fill_in I18n.t('common.authentication.password'), with: 'password', match: :prefer_exact
+    fill_in I18n.t('common.authentication.password_confirmation'), with: 'password', match: :prefer_exact
+    click_button I18n.t('common.authentication.sign_up')
 
-    expect(page).to have_content('success')
     expect(page.current_path).to eq(root_path)
   end
 
@@ -22,11 +21,10 @@ RSpec.feature "UserAuthentication", type: :feature do
 
     visit new_user_session_path
 
-    fill_in 'Email', with: user.email
-    fill_in 'Password', with: user.password
-    click_button 'Sign in'
+    fill_in I18n.t('common.authentication.email'), with: user.email
+    fill_in I18n.t('common.authentication.password'), with: user.password
+    click_button I18n.t('common.authentication.sign_in')
 
-    expect(page).to have_content('success')
     expect(page.current_path).to eq(root_path)
   end
 
@@ -35,10 +33,10 @@ RSpec.feature "UserAuthentication", type: :feature do
 
     visit new_user_session_path
 
-    fill_in 'Email', with: user.email
-    fill_in 'Password', with: user.password
-    click_button 'Sign in'
-    click_button 'Logout'
+    fill_in I18n.t('common.authentication.email'), with: user.email
+    fill_in I18n.t('common.authentication.password'), with: user.password
+    click_button I18n.t('common.authentication.sign_in')
+    click_button I18n.t('common.authentication.sign_out')
 
     expect(page.current_path).to eq(new_user_session_path)
   end

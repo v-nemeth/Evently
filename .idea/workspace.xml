@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54c9f55c-25cd-42ef-8bf0-460f1df22f3c" name="Changes" comment="devise sign in/up views">
-      <change afterPath="$PROJECT_DIR$/spec/features/user_authentication_spec.rb" afterDir="false" />
+    <list default="true" id="54c9f55c-25cd-42ef-8bf0-460f1df22f3c" name="Changes" comment="added tests for user_authentication">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/passwords/new.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/passwords/new.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/registrations/new.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.slim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/devise/sessions/new.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.slim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/home.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/home.slim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/factories.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/features/user_authentication_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/user_authentication_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699439678019</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added tests for user_authentication">
+      <option name="closed" value="true" />
+      <created>1699441667623</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1699441667623</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +230,7 @@
     <MESSAGE value="added bootstrap to project" />
     <MESSAGE value="setup devise and slim, added home page" />
     <MESSAGE value="devise sign in/up views" />
-    <option name="LAST_COMMIT_MESSAGE" value="devise sign in/up views" />
+    <MESSAGE value="added tests for user_authentication" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tests for user_authentication" />
   </component>
 </project>

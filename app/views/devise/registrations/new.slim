@@ -3,7 +3,7 @@
   .col-md-6
     .card
       .card-header.text-center
-        h2.card-title Sign up
+        h2.card-title = I18n.t('common.authentication.sign_up')
       .card-body
         = form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f|
           = render "devise/shared/error_messages", resource: resource
@@ -23,7 +23,7 @@
             = f.password_field :password_confirmation, autocomplete: "new-password", class: "form-control"
 
           .form-outline.mb-4
-            = f.submit "Sign up", class: "btn btn-primary btn-block mb-4"
+            = f.submit I18n.t('common.authentication.sign_up'), class: "btn btn-primary btn-block mb-4"
 
-        = link_to "Sign in", new_session_path(resource_name)
+        = link_to I18n.t('common.authentication.sign_in'), new_session_path(resource_name)
   .col-md-3

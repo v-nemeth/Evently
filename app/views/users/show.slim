@@ -1,0 +1,36 @@
+= render 'shared/navbar'
+
+.container.p-5.bg-light
+  .row
+    .col-12.col-lg-4.text-center
+      h1.text-center.mb-4 Profile
+      .row
+        = link_to image_tag('icon.png', alt: 'Evently logo', width:400), root_path, class: "img-fluid rounded"
+      .row
+        .text-center
+          = "Description"
+
+    .col-12.col-lg-8
+      h1.text-center.mb-4 Top 5 events
+      .row.mb-4
+        .col-1
+        .col-3
+          = link_to image_tag('icon.png', alt: 'Evently logo', height:200), root_path, class: "img-fluid rounded"
+        .col-8
+          .card.mb-4
+            .card-header Hello
+            .card-body World
+      .row.mb-4
+        .col-1
+        .col-3
+          = link_to image_tag('icon.png', alt: 'Evently logo', height: 200), root_path, class: "img-fluid rounded"
+        .col-8
+          .card.mb-4
+            .card-header Hello
+            .card-body World
+  .row
+    h1.text-center Details
+
+
+
+

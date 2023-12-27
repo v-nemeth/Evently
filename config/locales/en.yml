@@ -32,6 +32,9 @@
 en:
   hello: "Hello world"
   common:
+    title: "Evently"
+    actions:
+      search: "Search"
     authentication:
       sign_up: "Sign up"
       sign_in: "Sign in"

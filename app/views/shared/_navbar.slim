@@ -1,0 +1,12 @@
+nav.navbar.navbar-expand-lg.navbar-light.bg-light
+  .container-fluid
+    .d-flex.align-items-center
+      = link_to image_tag('icon.png', alt: 'Evently logo', width: 75, height: 75), root_path, class: "navbar-brand me-3"
+      h2.mx-auto = I18n.t("common.title")
+    form.d-flex.justify-content-end
+      input.form-control.me-2[type="search" placeholder="Search" aria-label="Search"]
+      button.btn.btn-outline-success[type="submit"] = I18n.t('common.actions.search')
+    .d-flex.align-items-center
+      = button_to "ADDEVENT", root_path, class: "btn btn-primary me-2", role: "button"
+      = button_to "LOGOUT", destroy_user_session_path, method: :delete, class: "btn btn-danger", role: "button"
+  hr.text-muted

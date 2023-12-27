@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54c9f55c-25cd-42ef-8bf0-460f1df22f3c" name="Changes" comment="added tests for user_authentication">
+    <list default="true" id="54c9f55c-25cd-42ef-8bf0-460f1df22f3c" name="Changes" comment="added localization to the project">
+      <change afterPath="$PROJECT_DIR$/app/assets/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_navbar.slim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_sidebar.slim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/devise/passwords/new.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/passwords/new.slim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/devise/registrations/new.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.slim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/devise/sessions/new.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.bootstrap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/home.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/home.slim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/features/user_authentication_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/user_authentication_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +26,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -34,24 +44,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/nemeth/Projects/cv_pages&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
-    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/nemeth/Projects/evently/app/assets/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ruby.rails.projectView.checked": "true",
+    "ruby.structure.view.model.defaults.configured": "true",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/images" />
+    </key>
+  </component>
   <component name="RunManager" selected="Rails.evently">
     <configuration name="evently" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="evently" />
@@ -143,6 +158,8 @@
       <workItem from="1695614167068" duration="54000" />
       <workItem from="1699403099768" duration="3541000" />
       <workItem from="1699410127141" duration="634000" />
+      <workItem from="1703572686683" duration="431000" />
+      <workItem from="1703573327479" duration="5162000" />
     </task>
     <task id="LOCAL-00001" summary="installed gems">
       <option name="closed" value="true" />
@@ -232,5 +249,8 @@
     <MESSAGE value="devise sign in/up views" />
     <MESSAGE value="added tests for user_authentication" />
     <option name="LAST_COMMIT_MESSAGE" value="added tests for user_authentication" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/evently@evently.rcov" NAME="evently Coverage Results" MODIFIED="1703577322543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="evently" />
   </component>
 </project>
